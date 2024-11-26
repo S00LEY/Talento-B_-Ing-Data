@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto tiene como objetivo realizar un análisis exhaustivo de la demanda energética en el sector de la **industria manufacturera de productos alimenticios**. Utilizando datos obtenidos de la API de XM sobre la demanda energética comercial no regulada, se realiza un proceso de agregación, transformación y visualización para identificar patrones y comportamientos clave en la demanda energética a lo largo del tiempo y por código CIIU.
+Este proyecto tiene como objetivo realizar un análisis exhaustivo de la demanda energética en el sector de la industria manufacturera de productos alimenticios. Utilizando datos obtenidos de la API de XM sobre la demanda energética comercial no regulada, se realiza un proceso de agregación, transformación y visualización para identificar patrones y comportamientos clave en la demanda energética a lo largo del tiempo y por código CIIU.
 
 El análisis incluye la exploración de la demanda energética por hora, la distribución porcentual por código CIIU, y el comportamiento mensual y semanal de la demanda. Las visualizaciones generadas permiten una mejor interpretación de los datos y proporcionan información útil para la toma de decisiones estratégicas en el sector energético y productivo.
 
@@ -50,3 +50,29 @@ Puedes instalar estas dependencias usando `pip`:
 
 ```bash
 pip install pandas matplotlib seaborn pydataxm jupyter numpy
+Uso
+Clonar el repositorio: Para obtener el proyecto, clona este repositorio en tu máquina local:
+
+bash
+Copiar código
+git clone https://github.com/S00LEY/Talento-B_-Ing-Data.git
+Abrir el proyecto: Navega a la carpeta del proyecto y abre el archivo Jupyter Notebook:
+
+bash
+Copiar código
+cd Talento-B_-Ing-Data
+jupyter notebook
+Ejecutar el análisis: Una vez dentro del notebook, puedes ejecutar las celdas de código para obtener los resultados del análisis, desde la conexión con la API hasta la visualización de los resultados.
+
+Explorar los resultados: Los gráficos y visualizaciones generadas te permitirán explorar la demanda energética de la industria alimentaria. También podrás modificar el análisis para agregar más parámetros o realizar ajustes según sea necesario.
+
+
+Dificultades y Mejoras
+Durante el desarrollo del análisis se encontraron algunos desafíos relacionados con el manejo de datos temporales, el filtrado de los códigos CIIU y la escalabilidad de las visualizaciones. Se sugieren mejoras como la automatización de las consultas a la API, la creación de visualizaciones interactivas, y el uso de modelos predictivos para anticipar la demanda energética futura.
+
+Licencia
+Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir el código según lo necesites.
+
+Todo el material utilizado y el código fuente están disponibles en el repositorio de GitHub:
+
+Repositorio de GitHub - Talento B - Ingeniería de Datos
