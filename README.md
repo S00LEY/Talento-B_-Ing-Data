@@ -46,9 +46,26 @@ Para ejecutar este proyecto, se deben tener instaladas las siguientes dependenci
 - `jupyter`
 - `numpy`
 
-Clonar el Repositorio
+## Uso
+
+### Clonar el Repositorio
 Para obtener el proyecto, clona este repositorio en tu máquina local:
 
 ```bash
 git clone https://github.com/S00LEY/Talento-B_-Ing-Data.git
+```
+### Abrir el Proyecto
+Navega a la carpeta del proyecto y abre el archivo Jupyter Notebook:
 
+```bash
+cd Talento-B_-Ing-Data
+- DemaComeNoReg_CIIU_Alimentos_2024.ipynb
+```
+### Ejecutar el Análisis
+Una vez dentro del notebook, puedes ejecutar las celdas de código para obtener los resultados del análisis, desde la conexión con la API hasta la visualización de los resultados.
+
+ _Nota: Para ejecutar los cuadernos de Jupyter, asegúrate de tener instalado Jupyter en tu entorno. Si no lo tienes, puedes instalarlo ejecutando el siguiente comando:_
+
+```bash
+pip install jupyter
+```
