@@ -39,33 +39,110 @@ El análisis se desarrolló en varias etapas clave:
 
 Para ejecutar este proyecto, se deben tener instaladas las siguientes dependencias:
 
-- `pandas`
-- `matplotlib`
-- `seaborn`
-- `pydataxm`
-- `jupyter`
-- `numpy`
-
-## Uso
-
-### Clonar el Repositorio
-Para obtener el proyecto, clona este repositorio en tu máquina local:
+ ### Pandas 
+- Para instalar pandas, ejecuta el siguiente comando en tu terminal o consola de comandos:
+```bash
+pip install pandas
+```
+### Matplotlib
+Para instalar matplotlib, ejecuta el siguiente comando:
 
 ```bash
-git clone https://github.com/S00LEY/Talento-B_-Ing-Data.git
+pip install matplotlib
 ```
-### Abrir el Proyecto
-Navega a la carpeta del proyecto y abre el archivo Jupyter Notebook:
+### Seaborn
+Para instalar seaborn, usa este comando:
 
 ```bash
-cd Talento-B_-Ing-Data
-- DemaComeNoReg_CIIU_Alimentos_2024.ipynb
+pip install seaborn
 ```
-### Ejecutar el Análisis
-Una vez dentro del notebook, puedes ejecutar las celdas de código para obtener los resultados del análisis, desde la conexión con la API hasta la visualización de los resultados.
 
- _Nota: Para ejecutar los cuadernos de Jupyter, asegúrate de tener instalado Jupyter en tu entorno. Si no lo tienes, puedes instalarlo ejecutando el siguiente comando:_
+### Pydataxm
+Para instalar pydataxm, usa este comando:
+
+```bash
+pip install pydataxm
+```
+### jupyter
+Para instalar jupyter, ejecuta el siguiente comando:
 
 ```bash
 pip install jupyter
 ```
+
+### Numpy
+Finalmente, para instalar numpy, ejecuta:
+
+```bash
+pip install numpy
+```
+
+ ### Pandas 
+- Para instalar pandas, ejecuta el siguiente comando en tu terminal o consola de comandos:
+```bash
+pip install pandas
+```
+### Matplotlib
+Para instalar matplotlib, ejecuta el siguiente comando:
+
+```bash
+pip install matplotlib
+```
+### Seaborn
+Para instalar seaborn, usa este comando:
+
+```bash
+pip install seaborn
+```
+
+### Pydataxm
+Para instalar pydataxm, usa este comando:
+
+```bash
+pip install pydataxm
+```
+### jupyter
+Para instalar jupyter, ejecuta el siguiente comando:
+
+```bash
+pip install jupyter
+```
+
+### Numpy
+Finalmente, para instalar numpy, ejecuta:
+
+```bash
+pip install numpy
+```
+
+## Instalación de dependencias
+En lugar de instalar cada paquete individualmente, puedes instalar todas las dependencias con un solo comando ejecutando:
+
+```bash
+pip install pandas matplotlib seaborn pydataxm jupyter numpy
+```
+_Este comando instalará todas las dependencias necesarias para ejecutar el proyecto._
+
+## Instrucciones para abrir el proyecto
+Navega a la carpeta del proyecto y abre el archivo Jupyter Notebook DemaComeNoReg_CIIU_Alimentos_2024.ipynb:
+
+1. Clonar el repositorio
+- Para comenzar, clona el repositorio en tu máquina local utilizando el siguiente comando de Git:
+
+```bash
+git clone https://github.com/S00LEY/Talento-B_-Ing-Data.git
+```
+
+2. Acceder a la carpeta del proyecto
+- Después de clonar el repositorio, accede al directorio del proyecto con el siguiente comando:
+
+```bash
+cd Talento-B_-Ing-Data
+```
+
+3. Abrir el archivo Jupyter Notebook en Visual Studio Code
+- Ahora, para abrir el archivo DemaComeNoReg_CIIU_Alimentos_2024.ipynb en Visual Studio Code, simplemente ejecuta el siguiente comando:
+```bash
+code DemaComeNoReg_CIIU_Alimentos_2024.ipynb
+```
+_Esto abrirá el archivo en VS Code, donde podrás ver y ejecutar el código._
